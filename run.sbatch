@@ -13,4 +13,4 @@ module purge
 singularity exec --nv \
 	    --overlay /scratch/mmh10013/pytorch-example/my_pytorch.ext3:ro \
 	    /scratch/work/public/singularity/cuda12.1.1-cudnn8.9.0-devel-ubuntu22.04.2.sif\
-	    /bin/bash -c "source /ext3/env.sh; python torch-test.py"
+	    /bin/bash -c "source /ext3/env.sh; python qwen-2.5-0.5b.py"
