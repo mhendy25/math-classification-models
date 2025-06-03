@@ -80,5 +80,4 @@ print("inputs:", batch['input_ids'][0], "outputs:", batch['labels'][0])
 ###
 # train for 2 epochs
 ###
-
 trainer.train()
