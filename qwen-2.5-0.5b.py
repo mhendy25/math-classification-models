@@ -43,7 +43,7 @@ sft_config = SFTConfig(
     # If batch size would cause OOM, halves its size until it works
     auto_find_batch_size=True,
     ## GROUP 2: Dataset-related
-    max_seq_length=6668,
+    max_seq_length=1024,
     # Dataset
     # packing a dataset means no padding is needed
     packing=False,
